@@ -31,7 +31,10 @@ class Student
   end
   
   def self.create(attributes)
-    	student = Student.new(name, grade)
+    	student = Student.new(nil, nil)
+    	attributes.each do |a|
+    	  
+    	 end
     	student.save
     	student
   end

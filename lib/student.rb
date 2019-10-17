@@ -33,7 +33,7 @@ class Student
   def self.create(attributes)
     	student = Student.new(nil, nil)
     	attributes.each do |key, value|
-    	  student[key] = value  
+    	  student.key = value  
     	end
     	student.save
     	student
